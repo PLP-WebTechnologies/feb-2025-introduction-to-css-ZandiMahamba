@@ -1,0 +1,45 @@
+/* style.css */
+
+/* Apply styles to the body */
+body {
+    background-color: #f4f4f4; /* Light background for better contrast */
+    font-family: 'Arial', sans-serif; /* Set a readable font */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center; /* Center the heading */
+    color: #2c3e50; /* Dark blue color */
+    margin-top: 20px;
+  }
+  
+  /* Style paragraphs with class .highlight */
+  .highlight {
+    background-color: #ffd700; /* Gold background */
+    padding: 10px; /* Add padding inside the paragraph */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Make text bold */
+  }
+  
+  /* Apply styles to images */
+  img {
+    display: block; /* Remove extra space below images */
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Add margin around the image */
+    border: 3px solid #2c3e50; /* Border around image */
+    border-radius: 10px; /* Rounded corners for image */
+  }
+  
+  /* Style a section with ID #content */
+  #content {
+    padding: 20px;
+    margin: 30px;
+    background-color: #ffffff; /* White background for section */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
